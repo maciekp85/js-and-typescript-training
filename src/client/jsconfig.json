@@ -1,0 +1,9 @@
+// Visual Studio Code Docs - Language: JavaScript -> Type checking
+
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "target": "ES2022"
+    },
+    "exclude": ["node_modules"]
+}
