@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>Inline JavaScript handlers example - Internal JavaScript</title>
+        <script>
+            function createParagraph() {
+                const para = document.createElement("p");
+                para.textContent = "You clicked the button!";
+                document.body.appendChild(para);
+            }
+        </script>
+    </head>
+    <body>
+        <!-- Please don't do this, however. It is bad practice to pollute your HTML with JavaScript, and it is inefficient
+        — you'd have to include the onclick="createParagraph()" attribute on every button you want the JavaScript to apply to. -->
+        <button onclick="createParagraph()">click me</button>
+    </body>
+</html>
