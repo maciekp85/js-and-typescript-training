@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>Without variables example</title>
+    </head>
+    <body>
+        <button id="button_A">Press me</button>
+        <h3 id="heading_A"></h3>
+        <script>
+            const buttonA = document.querySelector('#button_A');
+            const headingA = document.querySelector('#heading_A');
+
+            buttonA.onclick = () => {
+                alert(`Hello ${prompt('What is your name?')}, nice to see you!`);
+                headingA.textContent = `Welcome ${prompt('What is your name?')}`;
+            }
+        </script>
+    </body>
+    
+</html>
