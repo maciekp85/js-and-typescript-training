@@ -29,8 +29,8 @@ myNumber2 = Number(myNumber2) + 3;
 console.log("myNumber2 + 3 = ", myNumber2);
 console.log("typeof myNumber2: ", typeof myNumber2);
 
-// Arithemtic operators
-console.log("\n---Arithemtic operators---");
+// Arithmetic operators
+console.log("\n---Arithmetic operators---");
 const num1 = 10;
 const num2 = 50;
 console.log("num1 = ", num1);
@@ -41,4 +41,8 @@ console.log("num2 / num1 = ", num2 / num1);
 
 console.log("5 + 10 * 3 = ", 5 + 10 * 3);
 console.log("(num2 % 9) * num1 = ", (num2 % 9) * num1);
+
+// Operator precedense
+console.log("\n---Operator precedense---");
 console.log("num2 + num1 / 8 + 2 =", num2 + num1 / 8 + 2);
+console.log("(num2 + num1) / (8 + 2) =", (num2 + num1) / (8 + 2));
