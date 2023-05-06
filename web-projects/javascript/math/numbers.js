@@ -90,3 +90,12 @@ console.log("y = ", y);
 x *= y; // x now contains the value 12
 console.log("x *= y; x =", x);
 console.log("x *= y; y =", y);
+
+// Comparison operators
+console.log("\n--Comparison operators--");
+console.log("Strict equality: 5 === 2 + 4 ", 5 === 2 + 4);
+console.log("Strict non-equality: 5 !== 2 + 3 ", 5 !== 2 + 3);
+console.log("Less than: 10 < 6 ", 10 < 6);
+console.log("Greater than: 10 > 20 ", 10 > 20);
+console.log("Less than or equal to: 3 <= 2 ", 3 <= 2);
+console.log("Greater than or equal to: 5 >= 4 ", 5 >= 4);
