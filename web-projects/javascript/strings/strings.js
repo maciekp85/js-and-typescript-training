@@ -21,6 +21,14 @@ const dblSgl = "I'm feeling blue.";
 console.log(sglDbl);
 console.log(dblSgl);
 
-// However, you can't include the same quote mark inside the string if it's being used to contain them. 
+// However, you can't include the same quote mark inside the string if it's being used to contain them.
 // The following will error, as it confuses the browser as to where the string ends:
 // const bigmouth = 'I've got no right to take my place…';
+
+// Escaping characters in a string
+console.log("\n---Escaping characters in a string---");
+const bigmouth = 'I\'ve got no right to take my place…';
+console.log(bigmouth);
+
+const greetings = "Hello \"World\"!";
+console.log(greetings);
