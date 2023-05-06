@@ -46,3 +46,28 @@ console.log("(num2 % 9) * num1 = ", (num2 % 9) * num1);
 console.log("\n---Operator precedense---");
 console.log("num2 + num1 / 8 + 2 =", num2 + num1 / 8 + 2);
 console.log("(num2 + num1) / (8 + 2) =", (num2 + num1) / (8 + 2));
+
+// Increment and decrement
+console.log("\n--Increment and decrement--");
+let number1 = 4;
+console.log("number1 = " + number1);
+// number1++;
+console.log("number1++ = " + number1++);    // = 4, this is because the console returns the current value, then increments the variable
+console.log("number1 = " + number1);    // = 5 after incrementation
+
+let number2 = 6;
+console.log("number2 = " + number2);
+console.log("number2-- = " + number2--); // = 6, this is because the console returns the current value, then decrements the variable
+console.log("number2 = " + number2);    // = 5 after decrementation
+
+let number3 = 4;
+console.log("number3 = " + number3);
+console.log("++number3 = " + ++number3);    // = 5, this is because the console increments the variable and then returns the current value
+console.log("number3 = " + number3);    // = 5 after incrementation
+
+let number4 = 6;
+console.log("number4 = " + number4);
+console.log("--number4 = " + --number4); // = 6, this is because the console decrements the variable and then returns the current value
+console.log("number4 = " + number4);    // = 6 after decrementation
+
+
