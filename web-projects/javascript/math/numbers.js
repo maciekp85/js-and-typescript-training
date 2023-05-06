@@ -70,4 +70,23 @@ console.log("number4 = " + number4);
 console.log("--number4 = " + --number4); // = 6, this is because the console decrements the variable and then returns the current value
 console.log("number4 = " + number4);    // = 6 after decrementation
 
+// Assignment operators
+console.log("\n--Assignment operators--");
+let x = 3; // x contains the value 3
+let y = 4; // y contains the value 4
+x = y; // x now contains the same value y contains, 4
+console.log("x = ", x);
+console.log("y = ", y);
 
+console.log("x += 4", x += 4);
+console.log("x -= 3", x -= 3);
+console.log("x *= 3", x *= 3);
+console.log("x /= 5", x /= 5);
+
+x = 3; // x contains the value 3
+y = 4; // y contains the value 4
+console.log("x = ", x);
+console.log("y = ", y);
+x *= y; // x now contains the value 12
+console.log("x *= y; x =", x);
+console.log("x *= y; y =", y);
