@@ -47,3 +47,13 @@ const one = "Hello, ";
 const two = "how are you?";
 const joined = `${one}${two}`;
 console.log(joined);
+
+// Concatenation using "+"
+console.log("--Concatenation using \"+\"--");
+const greeting3 = "Hello";
+const name2 = "Chris";
+console.log(greeting3 + ", " + name2); // "Hello, Chris"
+
+const greeting4 = "Hello";
+const name3 = "Chris";
+console.log(`${greeting4}, ${name3}`); // "Hello, Chris"
