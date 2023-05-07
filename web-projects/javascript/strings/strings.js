@@ -32,3 +32,18 @@ console.log(bigmouth);
 
 const greetings = "Hello \"World\"!";
 console.log(greetings);
+
+// Concatenating strings
+console.log("--Concatenating strings--");
+// To concatenate string you can use a different type of string called a template literal.
+// A template literal looks just like a normal string, but instead of using single or double quote marks(' or "), you use backtick characters (`):
+const greeting = `Hello`;
+
+const name = "Chris";
+const greeting2 = `Hello, ${name}`;
+console.log(greeting2);
+
+const one = "Hello, ";
+const two = "how are you?";
+const joined = `${one}${two}`;
+console.log(joined);
