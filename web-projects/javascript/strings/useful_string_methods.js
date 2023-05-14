@@ -63,3 +63,20 @@ console.log("\n---Changing case---");
 const radData = "My NaMe Is MuD";
 console.log(radData.toLowerCase());
 console.log(radData.toUpperCase());
+
+// Updating parts of a string
+console.log("\n---Updating parts of a string---");
+const updated = browserType.replace("moz", "van");
+
+console.log("Updated: ", updated);
+console.log("Before update: ", browserType);
+
+let browserType2 = "mozilla";
+browserType2 = browserType2.replace("moz", "van");
+console.log(browserType2);
+
+// replaceAll() method
+let quote = "To be or not to be";
+console.log("Before update: ", quote);
+quote = quote.replaceAll("be", "code");
+console.log("Updated: ", quote);
