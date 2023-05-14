@@ -33,3 +33,15 @@ if (browserType.endsWith("zilla")) {
 } else {
     console.log("No zilla here!");
 }
+
+// Finding the position of a substring in a string
+console.log("\n---Finding the position of a substring in a string---");
+const tagline = "MDN - Resources for developers, by developers";
+console.log(tagline.indexOf("developers"));  // 20
+console.log(tagline.indexOf("x"));  // -1
+
+const firstOccurrence = tagline.indexOf("developers");
+const secondOccurence = tagline.indexOf("developers", firstOccurrence + 1);
+
+console.log("First occurence index: ", firstOccurrence); // 20
+console.log("Second occurence index: ", secondOccurence); // 35 Here we're telling the method to search for the substring "developers" starting at index 21 (firstOccurrence + 1), and it returns the index 35.
