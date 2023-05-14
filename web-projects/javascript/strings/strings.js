@@ -65,3 +65,21 @@ const score = 9;
 const highestScore = 10;
 const output = `I like the song ${song}. I gave it a score of ${(score / highestScore) * 100}%.`;
 console.log(output); // "I like the song Fight the Youth. I gave it a score of 90%."
+
+// Multiline strings
+console.log("\n--Multiline strings--");
+const output2 = `I like the song.
+I gave it a score of 90%`;
+console.log(output2);
+/*
+I like the song.
+I gave it a score of 90%.
+*/
+
+// To have the equivalent output using a normal string you'd have to include line break characters (\n) in the string:
+const output3 = `I like the song.\nI gave it a score of 90%`;
+console.log(output3);
+/*
+I like the song.
+I gave it a score of 90%.
+*/
