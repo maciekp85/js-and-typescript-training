@@ -57,3 +57,9 @@ console.log(browserType.slice(1, 4)); // The character at index 1 is "o", and th
 // So we extract all characters starting at "o" and ending just before "l", giving us "ozi".
 
 console.log(browserType.slice(2)); // zilla
+
+// Changing case
+console.log("\n---Changing case---");
+const radData = "My NaMe Is MuD";
+console.log(radData.toLowerCase());
+console.log(radData.toUpperCase());
