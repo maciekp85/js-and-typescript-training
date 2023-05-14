@@ -34,7 +34,7 @@ const greetings = "Hello \"World\"!";
 console.log(greetings);
 
 // Concatenating strings
-console.log("--Concatenating strings--");
+console.log("\n--Concatenating strings--");
 // To concatenate string you can use a different type of string called a template literal.
 // A template literal looks just like a normal string, but instead of using single or double quote marks(' or "), you use backtick characters (`):
 const greeting = `Hello`;
@@ -49,7 +49,7 @@ const joined = `${one}${two}`;
 console.log(joined);
 
 // Concatenation using "+"
-console.log("--Concatenation using \"+\"--");
+console.log("\n--Concatenation using \"+\"--");
 const greeting3 = "Hello";
 const name2 = "Chris";
 console.log(greeting3 + ", " + name2); // "Hello, Chris"
@@ -57,3 +57,11 @@ console.log(greeting3 + ", " + name2); // "Hello, Chris"
 const greeting4 = "Hello";
 const name3 = "Chris";
 console.log(`${greeting4}, ${name3}`); // "Hello, Chris"
+
+// Including expressions in strings
+console.log("\n--Including expressions in strings--");
+const song = "Fight the Youth";
+const score = 9;
+const highestScore = 10;
+const output = `I like the song ${song}. I gave it a score of ${(score / highestScore) * 100}%.`;
+console.log(output); // "I like the song Fight the Youth. I gave it a score of 90%."
